@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS | Basic grid layouts</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+    <section id="section__left">
+
+      <h1 id="section__left__title">
+         GEAD/UXUI
+      </h1>
+
+      <div id="section__left__gallery">
+        <div class="section__left__gallery__item" id="section__left__gallery__item__blackbackground">
+          <img src="assets/images/montaje onboarding2.png" alt="">
+        </div>
+
+        <div class="section__left__gallery__item" id="section__left__gallery__item__bluebackground">
+          <img src="assets/images/prueba 1.JPG" alt="">
+        </div>
+
+        <div class="section__left__gallery__item">
+          <video src="assets/images/CASESTUDY_WEB.mp4" autoplay muted loop alt=""></video>
+        </div>
+
+        <div class="section__left__gallery__item" id="section__left__gallery__item__greenbackground">
+          <img src="assets/images/plants people intro.jpg" alt="">
+        </div>
+
+        <div class="section__left__gallery__text" id="thechallenge">
+          <h2>
+            THE CHALLENGE
+          </h2>
+          <p>
+            The challenge of Plants People is to create a platform where people interested in a more natural selfcare could obtain the information of which remedie is appropiate for every problem or disease, and the know how to elaborate them step by step. And on the other side the option of sharing their own natural home remedies, on the way of building a community and growing this kind of knowledge.
+          </p>
+          <img src="assets/images/tablet.JPG" alt="">
+        </div>
+
+        <div class="section__left__gallery__text" id="section__left__gallery__item__blackbackground">
+          <h2>
+            THE PROBLEM
+          </h2>
+          <section class="section__left__gallery__text__2columns">
+            <p>
+              The challenge of Plants People is to create a platform where people interested in a more natural selfcare could obtain the information of which remedie is appropiate for every problem or disease, 
+            </p>
+            <p>
+               and the know how to elaborate them step by step. And on the other side the option of sharing their own natural home remedies, on the way of building a community and growing this kind of knowledge.
+            </p>
+        </section>
+          <img src="assets/images/tomato.jpg" alt="">
+        </div>
+
+        <div class="section__left__gallery__text" id="section__left__gallery__item__whitebackground">
+          <h2>
+            THE IDEA
+          </h2>
+          <section class="section__left__gallery__text__2columns">
+            <p>
+              The challenge of Plants People is to create a platform where people interested in a more natural selfcare could obtain the information of which remedie is appropiate for every problem or disease, and the know how to elaborate them step by step. <br><br> And on the other side the option of sharing their own natural home remedies, on the way of building a community and growing this kind of knowledge.
+            </p>
+            <p>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem a ad, eos id quisquam architecto.  
+             <img class="padding__top__imagen" src="assets/images/serpentinas.jpg" alt="">
+            </p>
+        </section>  
+        </div>
+
+        <div class="section__left__gallery__text" id="section__left__gallery__item__yellowbackground">
+          <h2>
+            THE PROTOTYPE
+          </h2>
+          <section class="section__left__gallery__text__2columns">
+            <p>
+              The challenge of Plants People is to create a platform where people interested in a more natural selfcare could obtain the information of which remedie is appropiate for every problem or disease, and the know how to elaborate them step by step.
+            </p>
+            <p> 
+              And on the other side the option of sharing their own natural home remedies, on the way of building a community and growing this kind of knowledge.
+            </p>
+            <p>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem a ad, eos id quisquam architecto.  
+            </p>
+            <p class="section__left__bold__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </p>
+        </section>  
+        </div>
+      </div>
+
+    </section>
+
+    <section id="section__right">
+      <header id="section__right__header__grid">
+        <ul class="section__right__column__list">
+          <li>
+           <span> UX/UI DESIGN</span>
+          </li>
+          <li>
+            <span>DIGITAL PRODUCT DESIGN</span>
+          </li>
+          <li>
+            <span>SERVICE DESIGN</span>
+          </li>
+          <li>
+            <span>USER INTERFACE</span>
+          </li>
+          <li>
+            <span>USER EXPERIENCE</span>
+          </li>
+        </ul>
+      <div class="section__right__links__list">
+        <ul>
+          <li class="section__right__button__link">
+            <a href="about.html"> <span>ABOUT ME</span></a>
+          </li>
+          <li class="section__right__button__link">
+            <a href="mailto:guilleiriz@hotmail.com"><span>EMAIL</span></a>
+          </li>
+          <li class="section__right__button__link">
+            <a href="https://www.linkedin.com/in/guillem-eiriz-b2a00b70/" target="_blank"><span>LINKEDIN</span></a>
+          </li>
+        </ul>
+      </div>
+
+      </header>
+
+      <main id="section__right__main__space">
+        <div id="section__right__projects__title">
+          <h3> PROJECTS</h3>
+        </div>
+        <ul>
+          <li>
+            <a href="#section__left__gallery__item__blackbackground">
+              <span class="section__right__project__hover"> PLANTS PEOPLE</span>
+            </a>
+          </li>
+          <li>
+            <a href="#thechallenge">
+              <span class="section__right__project__hover"> BUENA MENTE</span>
+            </a>
+          </li>
+        </ul>
+      </main>
+
+      <footer id="section__right__footer">
+        <span class="section__right__footer__text">
+          GUILLEM EIRIZ
+        </span>
+        <span class="section__right__footer__text">
+          SELECTED WORKS.
+        </span>
+        <span class="section__right__footer__text" id="researchtext">
+          DESIGN & RESEARCH
+        </span>
+        <span class="section__right__footer__text">
+          CRAFTING DIGITAL PRODUCTS FOR USER NEEDS.
+        </span>
+      </footer>
+    </section>
+  </div>
+</body>
+
+</html>
