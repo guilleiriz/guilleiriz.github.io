@@ -305,4 +305,10 @@ align-items: flex-start;
   .section__left__gallery__text {
     padding: 10px;
   }
+  #section__left__gallery {
+  scroll-snap-align: none;
+  }
+  html {
+  scroll-snap-type: none;
+  }
 }
